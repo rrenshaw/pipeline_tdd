@@ -185,14 +185,14 @@ Project Link: [https://github.com/rrenshaw/pipeline_tdd](https://github.com/gith
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/rrenshaw/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/rrenshaw/repo/graphs/contributors
+[contributors-url]: https://github.com/rrenshaw/pipeline_tdd/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rrenshaw/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/rrenshaw/repo/network/members
+[forks-url]: https://github.com/rrenshaw/pipeline_tdd/network/members
 [stars-shield]: https://img.shields.io/github/stars/rrenshaw/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/rrenshaw/repo/stargazers
+[stars-url]: https://github.com/rrenshaw/pipeline_tddrepo/stargazers
 [issues-shield]: https://img.shields.io/github/issues/rrenshaw/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/rrenshaw/repo/issues
+[issues-url]: https://github.com/rrenshaw/pipeline_tddrepo/issues
 [license-shield]: https://img.shields.io/github/license/rrenshaw/repo.svg?style=for-the-badge
-[license-url]: https://github.com/rrenshaw/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/rrenshaw/pipeline_tddrepo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/rrenshaw
+[linkedin-url]: https://linkedin.com/in/rick-renshaw-b554054
