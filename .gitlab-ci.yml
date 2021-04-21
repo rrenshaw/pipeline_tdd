@@ -13,7 +13,7 @@ lint:
     - apt-get update
     - apt-get upgrade -y
     - ruby -v
-    - gem install -N rake rspec rubocop simplecov yard
+    - bundle install
     - rake
 
 # build:
