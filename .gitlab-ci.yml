@@ -1,0 +1,61 @@
+---
+stages:
+  - lint
+#   - build
+#   - test
+#   - integration
+#   - .post
+
+lint:
+  image: ruby:2.7
+  stage: lint
+  script:
+    - apt-get update
+    - apt-get upgrade -y
+    - ruby -v
+    - gem install -N rake rspec rubocop simplecov yard
+    - rake
+
+# build:
+#   image: docker:18.05-dind
+#   script:
+#     - dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 &
+#     - cpid=$!
+#     - sleep 30
+#     - base64 -d ./b6tok.txt | docker login --username bofh69 --password-stdin
+#     - rm ./b6tok.txt
+#     - docker build --tag bofh69/sinatra_test .
+#     - docker image push bofh69/sinatra_test
+#     - sleep 5
+#     - kill $cpid
+
+# test:
+#   stage: test
+#   image: ruby:2.7
+#   script:
+#     - apt-get update
+#     - apt-get upgrade -y
+#     - ruby -v
+#     - gem install -N rake
+#     - gem install -N rspec rubocop simplecov yard
+#     - rake rubocop spec
+
+# integration:
+#   stage: integration
+#   image: bitnami/kubectl
+#   needs:
+#     - job: build
+#       artifacts: false
+#   script:
+#     - kubectl apply -f sinatra.yaml
+#     - kubectl apply -f sinatra_service.yaml
+#     - sleep 30
+#     - curl http://sinatra.gitlab-managed-apps:4567
+#     - curl http://sinatra.gitlab-managed-apps:4567/about
+
+# post:
+#   stage: .post
+#   image: bitnami/kubectl
+#   script:
+#     - kubectl delete -f sinatra_service.yaml
+#     - kubectl delete -f sinatra.yaml
