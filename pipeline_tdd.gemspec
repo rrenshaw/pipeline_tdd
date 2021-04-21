@@ -18,14 +18,16 @@ Gem::Specification.new do |spec|
   spec.test_files = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
+  spec.add_dependency 'sinatra', '~> 2.1'
+
   spec.add_development_dependency 'simplecov', '~> 0.1'
   # spec.add_development_dependency 'covered'
   # spec.add_development_dependency 'parallel', '~> 1.10'
   # spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rack-test', '~> 1.1'
   spec.add_development_dependency 'rspec', '~> 3.10'
   spec.add_development_dependency 'rubocop-rake', '~> 0.5'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.2'
   # spec.add_dependency 'rack'
-  # spec.add_dependency 'sinatra'
   spec.add_development_dependency 'yard', '~> 0.9'
 end
