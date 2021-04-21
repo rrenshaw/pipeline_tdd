@@ -12,9 +12,7 @@ class PipelineTDD < Sinatra::Base
 
   get('/v1/api') do
     status 201
-    # body { { 'foo' => 'bar' }.to_json }
     content_type 'application/json'
     { 'foo' => 'bar' }.to_json
-    # halt status, content_type, body
   end
 end
