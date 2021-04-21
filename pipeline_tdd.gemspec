@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop-rspec', '~> 2.2'
   # spec.add_dependency 'rack'
   # spec.add_dependency 'sinatra'
+  spec.add_development_dependency 'yard', '~> 0.9'
 end
