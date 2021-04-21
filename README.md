@@ -87,16 +87,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`rrenshaw`, `pipeline_tdd`, `@bofh69`, `bofh69@yahoo.com`, `Pipeline TDD test`, `This is a test to see if I can get my CI`
-
-
 ### Built With
 
-* []()
-* []()
-* []()
+* [Ruby](https://ruby-lang.org)
+* [Rubocop](https://rubocop.org)
+* [Rspec](https://rspec.info)
 
 
 
@@ -108,10 +103,15 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* ruby
+  * Debian derivatives
+    ```sh
+    sudo apt install ruby
+    ```
+  * Red Hat derivatives
+    ```sh
+    sudo yum install ruby
+    ```
 
 ### Installation
 
@@ -119,9 +119,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/rrenshaw/pipeline_tdd.git
    ```
-2. Install NPM packages
+2. Install Ruby gems packages
    ```sh
-   npm install
+   bundle install
    ```
 
 
@@ -165,7 +165,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@@bofh69](https://twitter.com/@bofh69) - bofh69@yahoo.com
+Your Name - [@bofh69](https://twitter.com/bofh69) - bofh69@yahoo.com
 
 Project Link: [https://github.com/rrenshaw/pipeline_tdd](https://github.com/github_username/pipeline_tdd)
 
