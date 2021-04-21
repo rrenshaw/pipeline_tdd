@@ -2,6 +2,9 @@
 
 # enable simplecov early
 require 'simplecov'
+SimpleCov.minimum_coverage 99
+SimpleCov.minimum_coverage_by_file 99
+SimpleCov.refuse_coverage_drop
 SimpleCov.start do
   enable_coverage :branch
   primary_coverage :branch
