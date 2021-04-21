@@ -19,5 +19,13 @@ describe 'PipelineTDD::Handler' do
       expect(content_type).to eq('text/plain')
       expect(body).to eq('Hello, World!')
     end
+
+    it 'handles /api' do
+      h = PipelineTDD::Handler.new
+      (status, content_type, body) = h.handle('/v1/api')
+      expect(status).to eq(201)
+      expect(content_type).to eq('application/json')
+      expect(body).to eq('{"foo":"bar"}')
+    end
   end
 end
