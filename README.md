@@ -189,10 +189,10 @@ Project Link: [https://github.com/rrenshaw/pipeline_tdd](https://github.com/gith
 [forks-shield]: https://img.shields.io/github/forks/rrenshaw/repo.svg?style=for-the-badge
 [forks-url]: https://github.com/rrenshaw/pipeline_tdd/network/members
 [stars-shield]: https://img.shields.io/github/stars/rrenshaw/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/rrenshaw/pipeline_tddrepo/stargazers
+[stars-url]: https://github.com/rrenshaw/pipeline_tdd/stargazers
 [issues-shield]: https://img.shields.io/github/issues/rrenshaw/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/rrenshaw/pipeline_tddrepo/issues
+[issues-url]: https://github.com/rrenshaw/pipeline_tdd/issues
 [license-shield]: https://img.shields.io/github/license/rrenshaw/repo.svg?style=for-the-badge
-[license-url]: https://github.com/rrenshaw/pipeline_tddrepo/blob/master/LICENSE.txt
+[license-url]: https://github.com/rrenshaw/pipeline_tdd/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/rick-renshaw-b554054
